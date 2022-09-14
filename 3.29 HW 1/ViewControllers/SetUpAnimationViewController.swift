@@ -10,21 +10,20 @@ import SpringAnimation
 
 final class setUpAnimationViewController: UIViewController {
    
-    @IBOutlet var animationView: UIView!
+    
     @IBOutlet var runAnimationButton: UIButton!
+    @IBOutlet var animationLabel: UILabel!
     
-    private let animations = Animation.getAnimation()
+//    var animations = Animation.getAnimation()
+//    var animation = animations[index]
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setUpAnimatiomView()
-    }
+    
+
     
     @IBAction func runAnimationButtonPressed() {
-        
+    
     }
     
-    private func setUpAnimatiomView() {
-        
-    }
+    
+    
 }

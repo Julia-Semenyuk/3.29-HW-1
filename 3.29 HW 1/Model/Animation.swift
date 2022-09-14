@@ -10,12 +10,27 @@ import SpringAnimation
 
 struct Animation {
     
-    let present: AnimationPreset?
-    let curve: AnimationCurve?
-    let force: Double?
-    let duration: Double?
-    let delay: Double?
-
+    let preset: AnimationPreset
+    let curve: AnimationCurve
+    let force: Double
+    let duration: Double
+    let delay: Double
+    
+    var fullName: String {
+    """
+\(preset)
+\(curve)
+\(force)
+\(delay)
+"""
+    }
+    
 }
+        
+     
+    
+    
+    
+
 
 

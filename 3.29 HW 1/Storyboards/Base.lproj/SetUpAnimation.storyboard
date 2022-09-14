@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,18 +12,40 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="setUpAnimationViewController" customModule="__29_HW_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="262" translatesAutoresizingMaskIntoConstraints="NO" id="kNN-VK-96n">
-                                <rect key="frame" x="47" y="163.5" width="320" height="569"/>
+                                <rect key="frame" x="27.5" y="49" width="320" height="569"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jRX-2L-mJc">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="242"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yoX-6j-gSO">
+                                                <rect key="frame" x="25" y="25" width="270" height="192"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="0.0"/>
+                                                <color key="textColor" red="0.92082271140000005" green="0.92289791239999996" blue="0.95456519929999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8k-kR-ZKy">
+                                                <rect key="frame" x="20" y="20" width="280" height="202"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" red="1" green="0.64260193171027624" blue="0.23825358994388979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
+                                            <constraint firstItem="m8k-kR-ZKy" firstAttribute="top" secondItem="jRX-2L-mJc" secondAttribute="top" constant="20" id="0fb-jw-mSp"/>
+                                            <constraint firstAttribute="bottom" secondItem="m8k-kR-ZKy" secondAttribute="bottom" constant="20" id="Pyq-a4-VfP"/>
+                                            <constraint firstItem="m8k-kR-ZKy" firstAttribute="leading" secondItem="jRX-2L-mJc" secondAttribute="leading" constant="20" id="gJd-Bx-xwe"/>
+                                            <constraint firstAttribute="bottom" secondItem="yoX-6j-gSO" secondAttribute="bottom" constant="25" id="hPn-gH-CYD"/>
                                             <constraint firstAttribute="height" constant="242" id="i7V-Bn-AGd"/>
+                                            <constraint firstAttribute="trailing" secondItem="yoX-6j-gSO" secondAttribute="trailing" constant="25" id="lTt-zT-4rp"/>
+                                            <constraint firstItem="yoX-6j-gSO" firstAttribute="top" secondItem="jRX-2L-mJc" secondAttribute="top" constant="25" id="rnc-vb-ZFW"/>
+                                            <constraint firstAttribute="trailing" secondItem="m8k-kR-ZKy" secondAttribute="trailing" constant="20" id="t7L-C9-Vsb"/>
                                             <constraint firstAttribute="width" constant="320" id="wkv-yj-BYo"/>
+                                            <constraint firstItem="yoX-6j-gSO" firstAttribute="leading" secondItem="jRX-2L-mJc" secondAttribute="leading" constant="25" id="yqI-67-dyh"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -62,7 +84,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="animationView" destination="jRX-2L-mJc" id="54p-yC-gq4"/>
+                        <outlet property="animationLabel" destination="yoX-6j-gSO" id="FgJ-vZ-GFg"/>
                         <outlet property="runAnimationButton" destination="h2G-Ze-eDg" id="1cj-JD-pYu"/>
                     </connections>
                 </viewController>
