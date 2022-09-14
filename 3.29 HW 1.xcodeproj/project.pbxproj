@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2BB042128D1790800CE0D22 /* Extension + Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BB042028D1790800CE0D22 /* Extension + Animation.swift */; };
 		A2F7238828D04CC8009EA66D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F7238728D04CC8009EA66D /* AppDelegate.swift */; };
 		A2F7238A28D04CC8009EA66D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F7238928D04CC8009EA66D /* SceneDelegate.swift */; };
 		A2F7238C28D04CC8009EA66D /* SetUpAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F7238B28D04CC8009EA66D /* SetUpAnimationViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2BB042028D1790800CE0D22 /* Extension + Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Animation.swift"; sourceTree = "<group>"; };
 		A2F7238428D04CC8009EA66D /* 3.29 HW 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3.29 HW 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F7238728D04CC8009EA66D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F7238928D04CC8009EA66D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				A2F7239E28D04D53009EA66D /* Animation.swift */,
+				A2BB042028D1790800CE0D22 /* Extension + Animation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			files = (
 				A2F7238C28D04CC8009EA66D /* SetUpAnimationViewController.swift in Sources */,
 				A2F7238828D04CC8009EA66D /* AppDelegate.swift in Sources */,
+				A2BB042128D1790800CE0D22 /* Extension + Animation.swift in Sources */,
 				A2F7238A28D04CC8009EA66D /* SceneDelegate.swift in Sources */,
 				A2F7239F28D04D53009EA66D /* Animation.swift in Sources */,
 			);
@@ -331,6 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YG4RG79V23;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "3.29 HW 1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -358,6 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YG4RG79V23;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "3.29 HW 1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

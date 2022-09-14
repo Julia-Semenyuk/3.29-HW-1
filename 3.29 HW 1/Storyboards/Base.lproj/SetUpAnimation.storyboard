@@ -39,7 +39,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="42"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Run">
                                             <color key="titleColor" red="0.88649055980000002" green="0.88649055980000002" blue="0.88649055980000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -63,6 +63,7 @@
                     </view>
                     <connections>
                         <outlet property="animationView" destination="jRX-2L-mJc" id="54p-yC-gq4"/>
+                        <outlet property="runAnimationButton" destination="h2G-Ze-eDg" id="1cj-JD-pYu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
